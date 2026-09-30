@@ -1,0 +1,332 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Demo05/1.0.0": {
+        "dependencies": {
+          "Microsoft.SemanticKernel.Connectors.Ollama": "1.80.1-alpha",
+          "Microsoft.SemanticKernel.Connectors.PgVector": "1.74.0-preview",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3",
+          "Pgvector.EntityFrameworkCore": "0.3.0"
+        },
+        "runtime": {
+          "Demo05.dll": {}
+        }
+      },
+      "Microsoft.Bcl.HashCode/1.1.1": {
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.20.56604"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/10.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.4"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.4": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "10.0.4.0",
+            "fileVersion": "10.0.426.12010"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI/10.5.0": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.5.2",
+          "System.Numerics.Tensors": "10.0.10"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.AI.dll": {
+            "assemblyVersion": "10.5.0.0",
+            "fileVersion": "10.500.26.21304"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/10.5.2": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "10.5.0.0",
+            "fileVersion": "10.500.226.25501"
+          }
+        }
+      },
+      "Microsoft.Extensions.VectorData.Abstractions/10.5.2": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.5.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.VectorData.Abstractions.dll": {
+            "assemblyVersion": "10.5.0.0",
+            "fileVersion": "10.500.226.25501"
+          }
+        }
+      },
+      "Microsoft.SemanticKernel.Abstractions/1.80.1": {
+        "dependencies": {
+          "Microsoft.Bcl.HashCode": "1.1.1",
+          "Microsoft.Extensions.AI": "10.5.0",
+          "Microsoft.Extensions.VectorData.Abstractions": "10.5.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.SemanticKernel.Abstractions.dll": {
+            "assemblyVersion": "1.80.1.0",
+            "fileVersion": "1.80.1.0"
+          }
+        }
+      },
+      "Microsoft.SemanticKernel.Connectors.Ollama/1.80.1-alpha": {
+        "dependencies": {
+          "Microsoft.SemanticKernel.Abstractions": "1.80.1",
+          "Microsoft.SemanticKernel.Core": "1.80.1",
+          "OllamaSharp": "5.4.25"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.SemanticKernel.Connectors.Ollama.dll": {
+            "assemblyVersion": "1.80.1.0",
+            "fileVersion": "1.80.1.0"
+          }
+        }
+      },
+      "Microsoft.SemanticKernel.Connectors.PgVector/1.74.0-preview": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.5.2",
+          "Microsoft.Extensions.VectorData.Abstractions": "10.5.2",
+          "Npgsql": "10.0.3",
+          "Pgvector": "0.3.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.SemanticKernel.Connectors.PgVector.dll": {
+            "assemblyVersion": "1.74.0.0",
+            "fileVersion": "1.74.0.0"
+          }
+        }
+      },
+      "Microsoft.SemanticKernel.Core/1.80.1": {
+        "dependencies": {
+          "Microsoft.SemanticKernel.Abstractions": "1.80.1",
+          "System.Numerics.Tensors": "10.0.10"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.SemanticKernel.Core.dll": {
+            "assemblyVersion": "1.80.1.0",
+            "fileVersion": "1.80.1.0"
+          }
+        }
+      },
+      "Npgsql/10.0.3": {
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
+          "Npgsql": "10.0.3"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "OllamaSharp/5.4.25": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.5.2"
+        },
+        "runtime": {
+          "lib/net10.0/OllamaSharp.dll": {
+            "assemblyVersion": "5.4.25.0",
+            "fileVersion": "5.4.25.0"
+          }
+        }
+      },
+      "Pgvector/0.3.2": {
+        "dependencies": {
+          "Npgsql": "10.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Pgvector.dll": {
+            "assemblyVersion": "0.3.2.0",
+            "fileVersion": "0.3.2.0"
+          }
+        }
+      },
+      "Pgvector.EntityFrameworkCore/0.3.0": {
+        "dependencies": {
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3",
+          "Pgvector": "0.3.2"
+        },
+        "runtime": {
+          "lib/net8.0/Pgvector.EntityFrameworkCore.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
+          }
+        }
+      },
+      "System.Numerics.Tensors/10.0.10": {
+        "runtime": {
+          "lib/net10.0/System.Numerics.Tensors.dll": {
+            "assemblyVersion": "10.0.0.10",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo05/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl.HashCode/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MalY0Y/uM/LjXtHfX/26l2VtN4LDNZ2OE3aumNOHDLsT4fNYy2hiHXI4CXCqKpNUNm7iJ2brrc4J89UdaL56FA==",
+      "path": "microsoft.bcl.hashcode/1.1.1",
+      "hashPath": "microsoft.bcl.hashcode.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kzTsfFK2GCytp6DDTfQOmxPU4gbGdrIlP7PxrxF3ESNLtfXrC8BoUVZENBN2WORlZPAD7CVX6AYIglgkpXQooA==",
+      "path": "microsoft.entityframeworkcore/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qDcJqCfN1XYyX0ID/Hd9/kQTRvlia8S+Yuwyl9uFhBIKnOCbl9WMdGQCzbZUKbkpkfvf3P9CDdXsnxHyE3O0Aw==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DOTjTHy93W3TwpMLM4SCm0n57Sc0Jj3+m2S6LSTstKyBB34eT1UouaMS19mpWwvtj42+sRiEjA3+rOTNoNzXFQ==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.4",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI/10.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UwUYEUqB7v74IYFRzPmjiN0i6JvHFC2P5laO5ZV2LvDRuz84+16XIkMVwT8nKyHJHT2gWOqywiTMC2pa50IrTA==",
+      "path": "microsoft.extensions.ai/10.5.0",
+      "hashPath": "microsoft.extensions.ai.10.5.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Abstractions/10.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ei+YWV9Ybnps7pR1dgjlG29gelXEwZkhLVAcWmKe6HvXS6LNBYgSdWiY3Hk9OZXYtK34rv/NtLWBQYQGOBQYPQ==",
+      "path": "microsoft.extensions.ai.abstractions/10.5.2",
+      "hashPath": "microsoft.extensions.ai.abstractions.10.5.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.VectorData.Abstractions/10.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yDAXNuIO0zXl6zkDqUvTN3rynut0m1bBoWo3ylZQ/B510hGjnRO7cQIs/iGvT3tuxyOL1oKAAONidXH495hZzQ==",
+      "path": "microsoft.extensions.vectordata.abstractions/10.5.2",
+      "hashPath": "microsoft.extensions.vectordata.abstractions.10.5.2.nupkg.sha512"
+    },
+    "Microsoft.SemanticKernel.Abstractions/1.80.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GFyw6aBon1kMNXsoSouGocD344EBpq7VoAtgLOxRWFhY/4i6JQ5+dcGMaJMR89BO0OrNOdDm+gLMkMYPg71crQ==",
+      "path": "microsoft.semantickernel.abstractions/1.80.1",
+      "hashPath": "microsoft.semantickernel.abstractions.1.80.1.nupkg.sha512"
+    },
+    "Microsoft.SemanticKernel.Connectors.Ollama/1.80.1-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y0eEthbDoY672fqtoJYj0/zgc41hYEuF0ffAreqVdm00CouVWJ6VLr44CX3i8u5u7N7FcY6cK98XWoW4wPLYIQ==",
+      "path": "microsoft.semantickernel.connectors.ollama/1.80.1-alpha",
+      "hashPath": "microsoft.semantickernel.connectors.ollama.1.80.1-alpha.nupkg.sha512"
+    },
+    "Microsoft.SemanticKernel.Connectors.PgVector/1.74.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K930wCsnNqkRePahBeARiq3/3HtqlLS5+KFghXWVQWY63EsLabPYcfO14pgAL5Ol1TNSzLTu4EzhoqS5dj5BXA==",
+      "path": "microsoft.semantickernel.connectors.pgvector/1.74.0-preview",
+      "hashPath": "microsoft.semantickernel.connectors.pgvector.1.74.0-preview.nupkg.sha512"
+    },
+    "Microsoft.SemanticKernel.Core/1.80.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ehU6pzYTnR1XwavA1VDZiVjD+uFyAwsPA7y7+WO4gnwsYi+T+ehhZLeO9ahzwv7ABGU87AGCL2xKA9WXCUQsiw==",
+      "path": "microsoft.semantickernel.core/1.80.1",
+      "hashPath": "microsoft.semantickernel.core.1.80.1.nupkg.sha512"
+    },
+    "Npgsql/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
+      "path": "npgsql/10.0.3",
+      "hashPath": "npgsql.10.0.3.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IPGrrZnRkuW7OlHDhUESZz4G5DLkW7Nej/O3Cx+0iTsgyU5XJxBgpsvTHLloo3WWuAKKbDHXBvWPVkX1deRh1Q==",
+      "path": "npgsql.entityframeworkcore.postgresql/10.0.3",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512"
+    },
+    "OllamaSharp/5.4.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EqkPM1gbkE+RbHgKUMzp4lYjpFymWUIgJntx3u4uDXAfAIFUXJ0MGklNFCi/PdCaxNAPRpcf205yx+g6jLLhZg==",
+      "path": "ollamasharp/5.4.25",
+      "hashPath": "ollamasharp.5.4.25.nupkg.sha512"
+    },
+    "Pgvector/0.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n7M5LuNejHUmtWky3zCbNO+tP1Gnjiuv9Qtu4LyvB1602dD8RiBxxCQp9jEjM0ZFDxAZF1oOWkNIkXw46KT00Q==",
+      "path": "pgvector/0.3.2",
+      "hashPath": "pgvector.0.3.2.nupkg.sha512"
+    },
+    "Pgvector.EntityFrameworkCore/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HVMcglKLOg979w67k8DOvKO+xJvfBHv/GcAgv/fI8alK8zp9oIYJUYP9BSV6n6+3GwkfynAJ77euwow4/c7HoA==",
+      "path": "pgvector.entityframeworkcore/0.3.0",
+      "hashPath": "pgvector.entityframeworkcore.0.3.0.nupkg.sha512"
+    },
+    "System.Numerics.Tensors/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Ildb4Y9maDztB0ZRGxsNShbpCQ2Tjv2dr4IjskBxpTGhH7aIz1+oC+Hl833ASs/htWwsH6myNe+sRpeyCzeMQ==",
+      "path": "system.numerics.tensors/10.0.10",
+      "hashPath": "system.numerics.tensors.10.0.10.nupkg.sha512"
+    }
+  }
+}
