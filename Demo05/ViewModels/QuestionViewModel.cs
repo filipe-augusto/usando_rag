@@ -1,0 +1,1 @@
+public record QuestionViewModel(string Prompt);
